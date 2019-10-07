@@ -1,0 +1,30 @@
+{
+  "name": "es6-git-project",
+  "version": "1.0.0",
+  "main": "scripts.js",
+  "scripts": {
+    "start": "npm-run-all prebuild build",
+    "prebuild": "babel ./src/script.js --watch --out-file ./src/build.js &",
+    "build": "parcel ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "components": "^0.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4",
+    "version": "^0.1.2"
+  },
+  "description": ""
+}
