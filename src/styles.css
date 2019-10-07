@@ -3,18 +3,18 @@
 }
 
 body {
-    background: url(https://miro.medium.com/max/4200/1*MKK4Y6Vg-6LjImKbMm9X6Q.png);
+  background: url(https://miro.medium.com/max/4200/1*MKK4Y6Vg-6LjImKbMm9X6Q.png);
 }
 
 input[type="text"] {
-    padding: 20px;
-    border-radius: 9px;
+  padding: 20px;
+  border-radius: 9px;
 }
 
 #searchText {
   padding: 20px;
   border-radius: 20px;
-  width: 100%;
+  width: 99%;
   background: #ffffffed;
   border: 0px;
   margin-bottom: 46px;
@@ -22,68 +22,73 @@ input[type="text"] {
 }
 
 #root {
-    padding: 30px;
-    width: 40%;
-    margin: 0 auto;
+  padding: 30px;
+  width: 40%;
+  margin: 0 auto;
 }
 
 button {
-    background-color: #0588d3;
-    border: 0px;
-    padding: 11px;
-    border-radius: 4px;
-    color: #fff;
-    height: 44px;
-    margin-top: 9px;
-    line-height: 14px;
-    font-weight: 600;
-    width: 14%;
+  background-color: #0588d3;
+  border: 0px;
+  padding: 11px;
+  border-radius: 4px;
+  color: #fff;
+  height: 44px;
+  margin-top: 9px;
+  line-height: 14px;
+  font-weight: 600;
+  width: 14%;
 }
+
 form {
-    top: 50%;
-    position: absolute;
-    transition: top .7s ease;
-    width: 40%;
+  top: 50%;
+  position: absolute;
+  transition: top .7s ease;
+  width: 40%;
 }
 
 .result {
-    background: #ffffffed;
-    padding: 20px;
-    border-radius: 20px;
-    width: 100%;
-    margin-top: 100px;
+  background: #ffffffed;
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 100px;
 }
 
 .result div a {
-      display: contents;
-      text-decoration: none;
-      color: #24323f;
-      font-size: 24px;
+  display: contents;
+  text-decoration: none;
+  color: #24323f;
+  font-size: 24px;
 }
 
 .result div b {
-      display: contents;
-      text-decoration: none;
-      color: #24323f;
-      font-size: 24px;
+  display: contents;
+  text-decoration: none;
+  color: #24323f;
+  font-size: 24px;
 }
 
 .result img {
-    height: 89px;
-    margin: 14px;
+  height: 89px;
+  margin: 14px;
 }
 
 .result div div {
-    display: flex;
-    border-bottom: 1px solid #d3d3d3;
-    line-height: 31px;
+  display: flex;
+  border-bottom: 1px solid #d3d3d3;
+  line-height: 31px;
+  font-size: 24px;
+  color: #23303d;
+  margin-top: 15px;
+  text-transform: capitalize;
 }
 
 i.fa.fa-search {
-    position: relative;
-    float: right;
-    bottom: 103px;
-    left: 22px;
-    font-size: 43px;
-    color: #293745;
+  position: relative;
+  float: right;
+  bottom: 103px;
+  left: 22px;
+  font-size: 43px;
+  color: #293745;
 }
